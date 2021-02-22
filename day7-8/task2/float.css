@@ -1,0 +1,30 @@
+/* 初始化样式 */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    max-width: 1000px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+div {
+    height: 500px;
+}
+
+.left {
+    width: 100px;
+    float: left;
+    background-color: rebeccapurple;
+}
+
+.right {
+    width: calc(100% - 100px);
+    float: right;
+    background-color: skyblue;
+}

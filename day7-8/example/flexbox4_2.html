@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        header {
+            background-color: rebeccapurple;
+            height: 100px;
+        }
+
+        header h1 {
+            text-align: center;
+            line-height: 100px;
+            color: seashell;
+        }
+
+        h2 {
+            line-height: 50px;
+        }
+
+        section {
+            display: flex;
+            margin-top: 5px;
+            padding: 5px;
+            background-color: silver;
+        }
+
+        article {
+            background-color: skyblue;
+            margin: 5px;
+            padding: 5px;
+            flex: 1 200px;
+        }
+
+        article:nth-of-type(3) {
+            flex: 2 200px;
+            display: flex;
+            flex-flow: column;
+        }
+
+        div:first-child {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            margin: 0;
+        }
+
+        button {
+            line-height: 1.5rem;
+            padding: 3px;
+            flex: 1 auto;
+            margin: 5px;
+        }
+
+        div {
+            margin:10px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Complex flexbox example</h1>
+</header>
+<section>
+    <article>
+       <h2>First article</h2>
+       <p>This is first article</p>
+    </article>
+    <article>
+        <h2>Second article</h2>
+        <p>This is second article</p>
+    </article>
+    <article>
+        <div>    
+            <button>Smile</button>
+            <button>Laugh</button>
+            <button>Wink</button>
+            <button>Shrug</button>
+            <button>Blush</button>
+        </div>
+        <div>
+            <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones retro fanny pack portland everyday carry vinyl typewriter. Tacos PBR&B pork belly, everyday carry ennui pickled sriracha normcore hashtag polaroid single-origin coffee cold-pressed. PBR&B tattooed trust fund twee, leggings salvia iPhone photo booth health goth gastropub hammock.</p>
+        </div>
+        <div>
+            <p>Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party.</p>
+        </div>
+    </article>
+</section>
+</body>
+</html>

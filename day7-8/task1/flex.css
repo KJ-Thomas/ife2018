@@ -1,0 +1,25 @@
+/* 初始化样式 */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+div {
+    height: 500px;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 3;
+    background-color: rebeccapurple;
+}
+
+.right {
+    flex: 7;
+    background-color: skyblue;
+}

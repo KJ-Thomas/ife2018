@@ -1,0 +1,27 @@
+/* 初始化样式 */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.left {
+    width: calc(100vw - 200px);
+    background-color: aqua;
+    height: 100px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    background-color: coral;
+    height: 100px;
+}
+
